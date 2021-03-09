@@ -24,7 +24,7 @@
       </div>
       <div class="divDescription">
         <p v-if="actu.description !=null">{{actu.description}}</p>
-        <p v-if="actu.description ===null">Désolé il n'existe pas de texte de description pour cet article</p>
+        <p v-if="actu.description ===null">Désolé, il n'existe pas de texte de description pour cet article</p>
 
       </div>
       </section>
